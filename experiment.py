@@ -277,9 +277,9 @@ if __name__ == "__main__":
             #             [scheme_params.fresh_ctxt, scheme_params.arch_param, 256],
             #         ),
             Target(
-                "bootstrap.bootstrap",
+                "custom_workload.custom_workload",
                 1,
-                [scheme_params],
+                [scheme_params.fresh_ctxt, scheme_params],
             ),
             # Target(
             #     "logistic_regression.logistic_regression",
