@@ -18,6 +18,7 @@ DECORATION_LIST = [
     "logistic_regression",
     "micro_benchmarks",
     "poly",
+    "custom_workload",
 ]
 
 
